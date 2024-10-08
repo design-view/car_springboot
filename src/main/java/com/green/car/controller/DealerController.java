@@ -18,7 +18,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/dealer")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://3.36.54.190")
 public class DealerController {
     private final CarService carService;
     //등록
