@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/admin")
-@CrossOrigin(origins = "http://3.36.54.190")
+@CrossOrigin(origins = "http://3.36.54.190:80")
 public class AdminController {
     private final CarService carService;
     private final MemberService memberService;
