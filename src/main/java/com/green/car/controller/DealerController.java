@@ -18,7 +18,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/dealer")
-@CrossOrigin(origins = "http://3.39.252.19:80")
+@CrossOrigin(origins = "http://car.jinlabs.net:80")
 public class DealerController {
     private final CarService carService;
     //등록
