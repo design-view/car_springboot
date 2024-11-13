@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/site")
-@CrossOrigin(origins = "http://3.39.252.19:80")
+@CrossOrigin(origins = "http://car.jinlabs.net:80")
 public class SiteController {
     private final MemberService memberService;
     
